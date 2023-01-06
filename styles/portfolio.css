@@ -6,7 +6,8 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
+    text-align: center;
 }
 .nav-title{
     font-weight: 800;
@@ -67,19 +68,25 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+section{
+    margin-top: 130px;
+    text-align: center;
+}
 /* About Section Style */
 .about{
     text-align: center;
-      margin-top: 130px;
+      
       background: #FFF8F3;
       border-radius: 10px;
       padding: 130px 150px;
 }
-.section-title{
-       
-       margin-bottom: 30px;
+.Section-title{
+       text-align: center;
+       margin-bottom: 100px;
        font-size: 35px;
        font-weight: 700;
+       
+       
 }
 .section-description{
      color: #757575;
@@ -98,4 +105,29 @@ main{
       font-weight: 700;
       font-size: 20px;
       color: #474747;
+}
+/* What I do Style */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.skill-description{
+    color:#757575;
+    padding: 10px;
+    
+}
+.skill-image{
+    padding: 10px;
 }
